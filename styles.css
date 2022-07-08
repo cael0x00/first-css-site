@@ -1,0 +1,97 @@
+body {
+  background-color: lightgray;
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
+  position: relative;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.clr {
+  clear: both;
+}
+
+#main-header {
+  background-color: coral;
+  color: #fff;
+}
+
+#nav-bar {
+  background-color: #333;
+  color: white;
+}
+
+#nav-bar ul {
+  padding: 0;
+  list-style: none;
+}
+
+#nav-bar li {
+  display: inline;
+}
+
+#nav-bar a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding-right: 15px;
+}
+
+#showcase {
+  background-image: url("./images/coralbackground.jpg");
+  background-position: center right;
+  min-height: 300px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#showcase h1 {
+  color: rgb(155, 143, 143);
+  font-size: 4.5em;
+  line-height: 120px;
+}
+
+#main,
+#side-bar {
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+
+#main {
+  float: left;
+  width: 70%;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+#side-bar {
+  margin-top: 10px;
+  float: right;
+  width: 30%;
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#main-footer {
+    margin-top: 15%;
+    bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+@media(max-width: 600px) {
+    #main {
+        width: 100%;
+        float: none;
+    }
+}
